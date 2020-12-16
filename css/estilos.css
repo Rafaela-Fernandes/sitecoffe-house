@@ -1,0 +1,329 @@
+/* -------------------------------CSS HEARDER -------------------------------------------------- */
+
+#img-destaque {
+
+    background-image: url(../img/destaque.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: scroll;
+    background-size: 100%;
+
+}
+
+
+#fundo-menu a:hover {
+
+    border-bottom: #ec921c solid 3px;
+    border-width: medium;
+
+}
+
+#menu {
+
+    margin-top: 5%;
+ 
+}
+
+
+#fundo-menu img {
+    width: 20%;
+    height: 18vh;
+    margin-top: 3%;
+ 
+
+
+}
+
+#texto-destaque {
+
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    background: #1a102d63;
+
+}
+
+#fundo-menu a {
+
+    color: #121a45;
+    font-size: 2rem;
+}
+
+#paragrafo-destaque {
+
+    font-size: 3rem;
+}
+
+
+#texto-destaque a {
+    width: 50%;
+    font-size: 2rem;
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.301);
+    border-radius: 0;
+    background: #222148;
+    color: #FFF
+}
+
+
+
+#texto-destaque a:hover {
+    background: #3a387a;
+}
+
+
+
+
+/* -------------------------------CSS SESSÃO SOBRE -------------------------------------------------- */
+
+#texto-sobre {
+    background: #212048;
+    border-bottom: #ff9933 solid 8px;
+
+}
+
+#grupos-sobre {
+
+    margin-top: 7%;
+    margin-bottom: 8%;
+}
+
+#grupos-sobre img {
+    width: 40%;
+}
+
+#grupos-sobre h5 {
+
+    font-size: 3rem;
+    color: #212048;
+    font-weight: bold;
+}
+
+#grupos-sobre p {
+
+    font-size: 1.3rem;
+    color: #212048;
+}
+
+#grupos-sobre div {
+    border: none;
+}
+
+
+
+
+
+/* -------------------------------CSS SESSÃO PLANO -------------------------------------------------- */
+
+#texto-plano {
+
+
+    background: #433455;
+}
+
+
+#texto-plano img {
+    width: 7%;
+}
+
+#texto-plano .sub-texto {
+    font-size: 2rem;
+    color: #dcd6d7;
+}
+
+#texto-plano p {
+    color: #dcd6d7;
+}
+
+
+.orcamentos img {
+
+    width: 80%;
+}
+
+
+.orcamentos button {
+
+    width: 80%;
+    font-size: 2rem;
+    box-shadow: 3px 3px grey;
+    border-radius: 0;
+    background: #23a374;
+    color: #FFF
+}
+
+
+
+
+
+
+/* -------------------------------CSS RODAPÉ -------------------------------------------------- */
+
+#rodape {
+    background: #171733;
+
+    margin-top: 10%;
+
+
+
+}
+
+#rodape ul li img {
+    width: 5%;
+    padding-bottom: 1.5rem
+}
+
+
+
+
+
+
+
+/* -------------------------------CSS ANIMAÇÃO -------------------------------------------------- */
+
+.animar {
+
+    opacity: 0;
+    transform: translate3d(-100px, 0, 0);
+    transition: .3s;
+
+}
+
+
+.anime-start {
+
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+
+
+
+
+
+
+/* -------------------------------CSS mobile -------------------------------------------------- */
+
+@media screen and (max-width:500px) {
+
+    /* sessao header*/
+    #img-destaque {
+        height: 33vh
+    }
+    #menu a {
+
+        font-size: 0.5rem;
+    }
+
+    #fundo-menu img {
+
+        width: 30%;
+        height: 8vh;
+        margin-left: 3%;
+    }
+
+    #texto-destaque {
+        position: absolute;
+        top: 12%;
+        height: 18vh;
+        width: 78% !important;
+        padding: 5px !important;
+    }
+
+    #texto-destaque h1 {
+        font-size: 1rem;
+
+    }
+
+    #texto-destaque p {
+        font-size: 0.5rem;
+    }
+
+    #texto-destaque a {
+        width: 50%;
+        font-size: 0.5rem;
+        padding: 5px !important;
+
+    }
+
+
+    /* sessao sobre*/
+    #texto-sobre {
+        padding: 15px !important;
+    }
+
+    #texto-sobre p {
+        font-size: 2rem;
+
+    }
+
+
+    #grupos-sobre img {
+        width: 30%
+    }
+
+    #grupos-sobre h5 {
+        font-size: 1.5rem;
+    }
+
+    #grupos-sobre p {
+        font-size: 0.8rem;
+        *
+    }
+
+    /* sessao planos*/
+    #titulo-destaque-planos {
+        font-size: 1.5rem;
+
+    }
+
+    .sub-texto {
+        font-size: 1rem !important;
+    }
+
+
+    #texto-plano img {
+
+        width: 20%
+    }
+
+    #planos img {
+
+        margin-top: 0 !important;
+        margin:auto !important;
+    }
+
+
+
+    .orcamentos button {
+
+        width: 85%;
+        font-size: 1rem;
+        padding: 3px !important;
+        box-shadow: 1px 1px grey;
+    }
+    
+    
+    /* rodapé */
+    
+    footer li img{
+        width: 10% !important;
+    
+    }
+    
+    footer p{
+        font-size: 0.8rem;;
+    }
+    
+    #redes-sociais img{
+         width: 15% !important;
+    }
+    
+    footer iframe{
+        
+        width:auto!important;
+        height:auto !important;
+        margin-left: 7%;
+        
+    }
+}
